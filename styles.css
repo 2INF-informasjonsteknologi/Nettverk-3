@@ -25,9 +25,7 @@ header {
     justify-content: center;
     flex-direction: column;
 }
-.ruter-image{
-    size: 40%;
-}
+
 nav ul {
     list-style: none;
     padding: 0;
