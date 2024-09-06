@@ -9,23 +9,31 @@ header {
     color: #fff;
     background-color: #000000;
     padding: 20px;
+    padding-left: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+p{
+    width: 600px;
+}
 .section{
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
     padding-top: 200px;
 }
 .content{
     display: flex;
-    align-items: center;
-    justify-content: center;
     flex-direction: column;
+    padding-left: 50px;
+    padding-right: 50px;
 }
-
+.content-lower{
+    padding-top: 100px;
+    padding-right: 400px;
+    padding-left: 400px;
+}
 nav ul {
     list-style: none;
     padding: 0;
