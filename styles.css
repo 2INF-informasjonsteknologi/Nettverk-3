@@ -18,7 +18,8 @@ p{
     width: 600px;
 }
 .page-icons{
-    
+    width: auto;
+    align-content: center;
 }
 .section{
     display: flex;
@@ -36,6 +37,35 @@ p{
     padding-top: 100px;
     padding-right: 400px;
     padding-left: 400px;
+}
+.section-home{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 100px;
+}
+.text{
+    
+    cursor: pointer;
+    outline: 0;
+    color: #fff;
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    border: 1px solid transparent;
+    font-size: 16px;
+    border-radius: .5rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    :hover {
+        color: #fff;
+        background-color: #0b5ed7;
+        border-color: #0a58ca;
+    }
+
+
 }
 nav ul {
     list-style: none;
