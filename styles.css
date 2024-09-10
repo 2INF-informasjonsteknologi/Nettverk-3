@@ -44,8 +44,9 @@ p{
     justify-content: space-evenly;
     padding-top: 100px;
 }
-.text{
-    
+.button{
+    padding-block: 10px;
+    padding-inline: 20px;
     cursor: pointer;
     outline: 0;
     color: #fff;
